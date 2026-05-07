@@ -1,65 +1,65 @@
 {
-    "name": "tailwind-plugin-no-scrollbar",
-    "type": "module",
-    "version": "0.0.0",
-    "packageManager": "pnpm@10.33.2",
-    "description": "Tailwind CSS plugin that adds utilities to hide scrollbars (no-scrollbar / scrollbar-none) without disabling scrolling",
-    "author": "lonewolfyx",
-    "license": "MIT",
-    "homepage": "https://github.com/lonewolfyx/setup",
-    "bugs": {
-        "url": "https://github.com/lonewolfyx/setup/issues"
+  "name": "tailwind-plugin-no-scrollbar",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.33.2",
+  "description": "Tailwind CSS plugin that adds utilities to hide scrollbars (no-scrollbar / scrollbar-none) without disabling scrolling",
+  "author": "lonewolfyx",
+  "license": "MIT",
+  "homepage": "https://github.com/lonewolfyx/setup",
+  "bugs": {
+    "url": "https://github.com/lonewolfyx/setup/issues"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwind-plugin",
+    "tailwind-plugin-no-scrollbar",
+    "scrollbar",
+    "scrollbar-hide"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs"
     },
-    "keywords": [
-        "tailwind",
-        "tailwind-plugin",
-        "tailwind-plugin-no-scrollbar",
-        "scrollbar",
-        "scrollbar-hide"
-    ],
-    "exports": {
-        ".": {
-            "import": "./dist/index.mjs"
-        },
-        "./v4": "./no-scrollbar.css"
-    },
-    "module": "./dist/index.mjs",
-    "files": [
-        "dist",
-        "no-scrollbar.css"
-    ],
-    "scripts": {
-        "dev": "tsdown --watch",
-        "build": "tsdown",
-        "playground:dev": "pnpm --dir playground dev",
-        "playground:build": "pnpm --dir playground build",
-        "playground:preview": "pnpm --dir playground preview",
-        "lint": "eslint .",
-        "lint:fix": "eslint --fix",
-        "prepublishOnly": "pnpm build",
-        "prepare": "simple-git-hooks"
-    },
-    "dependencies": {
-        "tailwindcss": "^4.2.4"
-    },
-    "devDependencies": {
-        "@antfu/eslint-config": "^8.2.0",
-        "@lonewolfyx/tsconfig": "^0.0.6",
-        "@types/node": "^25.6.0",
-        "eslint": "^10.3.0",
-        "jiti": "^2.7.0",
-        "lint-staged": "^17.0.2",
-        "picocolors": "^1.1.1",
-        "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.21.10",
-        "tsx": "^4.21.0",
-        "typescript": "^6.0.3"
-    },
-    "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
-        "commit-msg": "node scripts/verify-commit.js"
-    },
-    "lint-staged": {
-        "*": "eslint --fix"
-    }
+    "./v4": "./no-scrollbar.css"
+  },
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist",
+    "no-scrollbar.css"
+  ],
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "playground:dev": "pnpm --dir playground dev",
+    "playground:build": "pnpm --dir playground build",
+    "playground:preview": "pnpm --dir playground preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "prepublishOnly": "pnpm build",
+    "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.2.0",
+    "@lonewolfyx/tsconfig": "^0.0.6",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.3.0",
+    "jiti": "^2.7.0",
+    "lint-staged": "^17.0.2",
+    "picocolors": "^1.1.1",
+    "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.21.10",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "node scripts/verify-commit.js"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
 }
