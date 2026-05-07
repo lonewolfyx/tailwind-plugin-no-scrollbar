@@ -21,6 +21,9 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix"
     },
+    "dependencies": {
+        "tailwindcss": "^4.2.4"
+    },
     "devDependencies": {
         "@antfu/eslint-config": "^8.2.0",
         "@lonewolfyx/tsconfig": "^0.0.6",
