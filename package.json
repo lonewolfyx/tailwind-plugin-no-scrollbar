@@ -3,7 +3,7 @@
     "type": "module",
     "version": "0.0.0",
     "packageManager": "pnpm@10.33.2",
-    "description": "",
+    "description": "Tailwind CSS plugin that adds utilities to hide scrollbars (no-scrollbar / scrollbar-none) without disabling scrolling",
     "author": "lonewolfyx",
     "license": "MIT",
     "homepage": "https://github.com/lonewolfyx/setup",
