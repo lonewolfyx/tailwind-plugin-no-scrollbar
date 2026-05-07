@@ -6,6 +6,10 @@
     "description": "",
     "author": "lonewolfyx",
     "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/setup",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/setup/issues"
+    },
     "keywords": [],
     "scripts": {
         "dev": "tsdown --watch",
