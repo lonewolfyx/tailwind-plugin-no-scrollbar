@@ -13,7 +13,9 @@
     "keywords": [
         "tailwind",
         "tailwind-plugin",
-        "tailwind-plugin-no-scrollbar"
+        "tailwind-plugin-no-scrollbar",
+        "scrollbar",
+        "scrollbar-hide"
     ],
     "exports": {
         ".": {
