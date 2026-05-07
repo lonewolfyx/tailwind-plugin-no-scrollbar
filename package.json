@@ -10,7 +10,11 @@
     "bugs": {
         "url": "https://github.com/lonewolfyx/setup/issues"
     },
-    "keywords": [],
+    "keywords": [
+        "tailwind",
+        "tailwind-plugin",
+        "tailwind-plugin-no-scrollbar"
+    ],
     "scripts": {
         "dev": "tsdown --watch",
         "build": "tsdown",
