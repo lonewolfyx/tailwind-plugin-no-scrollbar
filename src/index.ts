@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin'
 
 export default plugin(({ addUtilities, addBase }) => {
     addUtilities({
-        '.no-scrollbar': {
+        '.no-scrollbar, .scrollbar-none': {
             '-ms-overflow-style': 'none',
             'scrollbar-width': 'none',
             '&::-webkit-scrollbar': {
