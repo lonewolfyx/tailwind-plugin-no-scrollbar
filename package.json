@@ -6,9 +6,9 @@
     "description": "Tailwind CSS plugin that adds utilities to hide scrollbars (no-scrollbar / scrollbar-none) without disabling scrolling",
     "author": "lonewolfyx",
     "license": "MIT",
-    "homepage": "https://github.com/lonewolfyx/setup",
+    "homepage": "https://github.com/lonewolfyx/tailwind-plugin-no-scrollbar",
     "bugs": {
-        "url": "https://github.com/lonewolfyx/setup/issues"
+        "url": "https://github.com/lonewolfyx/tailwind-plugin-no-scrollbar/issues"
     },
     "keywords": [
         "tailwind",
