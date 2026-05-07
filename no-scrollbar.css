@@ -1,0 +1,34 @@
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none
+}
+
+html.route-hide-scrollbar, body.route-hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+html.route-hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none
+}
+
+body.route-hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none
+}
+
+.usage-code-scrollbar-none * {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.usage-code-scrollbar-none ::-webkit-scrollbar {
+    display: none
+}
