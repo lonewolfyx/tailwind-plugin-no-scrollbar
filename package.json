@@ -23,7 +23,8 @@
     },
     "module": "./dist/index.mjs",
     "files": [
-        "dist"
+        "dist",
+        "no-scrollbar.css"
     ],
     "scripts": {
         "dev": "tsdown --watch",
