@@ -15,6 +15,16 @@
         "tailwind-plugin",
         "tailwind-plugin-no-scrollbar"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs"
+        },
+        "./v4": "./no-scrollbar.css"
+    },
+    "module": "./dist/index.mjs",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "dev": "tsdown --watch",
         "build": "tsdown",
