@@ -1,0 +1,36 @@
+{
+    "name": "tailwind-plugin-no-scrollbar",
+    "type": "module",
+    "version": "0.0.0",
+    "packageManager": "pnpm@10.33.2",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    "keywords": [],
+    "scripts": {
+        "dev": "tsdown --watch",
+        "build": "tsdown",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^8.2.0",
+        "@lonewolfyx/tsconfig": "^0.0.6",
+        "@types/node": "^25.6.0",
+        "eslint": "^10.3.0",
+        "jiti": "^2.7.0",
+        "lint-staged": "^17.0.2",
+        "picocolors": "^1.1.1",
+        "simple-git-hooks": "^2.13.1",
+        "tsdown": "^0.21.10",
+        "tsx": "^4.21.0",
+        "typescript": "^6.0.3"
+    },
+    "simpleGitHooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "node scripts/verify-commit.js"
+    },
+    "lintStaged": {
+        "*": "eslint --fix"
+    }
+}
