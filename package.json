@@ -32,7 +32,9 @@
         "dev": "tsdown --watch",
         "build": "tsdown",
         "lint": "eslint .",
-        "lint:fix": "eslint --fix"
+        "lint:fix": "eslint --fix",
+        "prepublishOnly": "pnpm build",
+        "prepare": "simple-git-hooks"
     },
     "dependencies": {
         "tailwindcss": "^4.2.4"
